@@ -1,0 +1,186 @@
+/* Color Variables */
+/* Font sizes */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100vw;
+  height: 700px;
+  background-color: pink;
+  background-image: url(/images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero .hero__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #F7F6F5;
+  padding: 2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.hero .hero__information .info1 {
+  font-size: 1.25rem;
+}
+.hero .hero__information .info2 {
+  font-size: 6rem;
+}
+.hero .hero__information .funeral__btn {
+  font-size: 0.875rem;
+  background-color: #D9B577;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1280px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 700px;
+    background-color: pink;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero .hero__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F6F5;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero .hero__information .info1 {
+    font-size: 1.125rem;
+  }
+  .hero .hero__information .info2 {
+    font-size: 3.75rem;
+  }
+  .hero .hero__information .funeral__btn {
+    font-size: 0.875rem;
+    background-color: #D9B577;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 700px;
+    background-color: pink;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero .hero__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F6F5;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero .hero__information .info1 {
+    font-size: 1rem;
+  }
+  .hero .hero__information .info2 {
+    font-size: 3rem;
+  }
+  .hero .hero__information .funeral__btn {
+    font-size: 0.875rem;
+    background-color: #D9B577;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 648px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 400px;
+    background-color: pink;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero .hero__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F6F5;
+    padding: 2rem;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .hero .hero__information .info1 {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  .hero .hero__information .info2 {
+    font-size: 2.25rem;
+  }
+  .hero .hero__information .info3 {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  .hero .hero__information .funeral__btn {
+    font-size: 0.875rem;
+    background-color: #D9B577;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 475px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 400px;
+    background-color: pink;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero .hero__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F6F5;
+    padding: 2rem;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .hero .hero__information .info1 {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  .hero .hero__information .info2 {
+    font-size: 1.5rem;
+  }
+  .hero .hero__information .info3 {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  .hero .hero__information .funeral__btn {
+    font-size: 0.875rem;
+    background-color: #D9B577;
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=hero.css.map */

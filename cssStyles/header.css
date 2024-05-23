@@ -1,0 +1,53 @@
+/* Color Variables */
+/* Font sizes */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #363636;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 2em;
+}
+
+.header__link {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #F7F6F5;
+  transition: color 0.3s;
+}
+
+.header__link:hover {
+  color: #D9B577;
+}
+
+/* @media (max-width: 1536px){
+}
+
+@media (max-width: 1280px){
+}
+
+@media (max-width: 1024px){
+}
+
+@media (max-width: 768px){
+}*/
+@media (max-width: 648px) {
+  .header__link {
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #F7F6F5;
+    transition: color 0.3s;
+  }
+}/*# sourceMappingURL=header.css.map */

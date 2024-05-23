@@ -67,41 +67,35 @@
 @media (max-width: 1536px){
     .container{
         max-width: 1280px;
-        border: 1px solid rgb(255, 255, 0);
     }
 }
 
 @media (max-width: 1280px){
     .container{
         max-width: 1024px;
-        border: 1px solid rgb(34, 255, 0);
     }
 }
 
 @media (max-width: 1024px){
     .container{
         max-width: 768px;
-        border: 1px solid rgb(0, 132, 255);
     }
 }
 
 @media (max-width: 768px){
     .container{
         max-width: 648px;
-        border: 1px solid rgb(251, 0, 255);
     }
 }
 
 @media (max-width: 648px){
     .container{
         max-width: 475px;
-        border: 1px solid rgb(37, 215, 158);
     }
 }
 
 @media (max-width: 475px){
     .container{
         max-width: 100%;
-        border: 1px solid rgb(255, 60, 0);
     }
 }

@@ -115,3 +115,43 @@
        
     }
 }
+
+@media (max-width: 475px){
+    .funeral{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-color: $dark;
+        color: $light;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    
+        .funeral__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+    
+             .funeral__header{
+                font-size: $xl3;
+            }
+    
+            .address{
+                font-size: $sm;
+                text-align: center;
+            }
+    
+            .date{
+                font-size: $sm;
+            }
+    
+            p{
+                width: 25ch;
+                text-align: center;
+            }
+    
+        }
+    
+       
+    }
+}
