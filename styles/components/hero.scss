@@ -1,0 +1,166 @@
+@import '../variables.scss';
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 700px;
+    background-color: pink;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .hero__information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $light;
+        padding: 2rem;
+        gap: 1rem;
+        margin-bottom: 2rem;
+
+        .info1{
+            font-size: $xl;
+        }
+
+        .info2{
+            font-size: $xl8;
+        }
+
+        .funeral__btn{
+            font-size: $sm;
+            background-color: $accent;
+            margin-top: 2rem;
+        }
+    }
+}
+
+@media (max-width: 1280px){
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100vw;
+        height: 700px;
+        background-color: pink;
+        background-image: url(/images/hero-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        .hero__information{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $light;
+            padding: 2rem;
+            gap: 1rem;
+            margin-bottom: 2rem;
+    
+            .info1{
+                font-size: $lg;
+            }
+    
+            .info2{
+                font-size: $xl6;
+            }
+    
+            .funeral__btn{
+                font-size: $sm;
+                background-color: $accent;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100vw;
+        height: 700px;
+        background-color: pink;
+        background-image: url(/images/hero-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        .hero__information{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $light;
+            padding: 2rem;
+            gap: 1rem;
+            margin-bottom: 2rem;
+    
+            .info1{
+                font-size: $base;
+            }
+    
+            .info2{
+                font-size: $xl5;
+            }
+    
+            .funeral__btn{
+                font-size: $sm;
+                background-color: $accent;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 648px){
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100vw;
+        height: 400px;
+        background-color: pink;
+        background-image: url(/images/hero-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        .hero__information{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $light;
+            padding: 2rem;
+            gap: 0.5rem;
+            margin-bottom: 0.2rem;
+    
+            .info1{
+                font-weight: 400;
+                font-size: $sm;
+            }
+    
+            .info2{
+                font-size: $xl4;
+            }
+
+            .info3{
+                font-weight: 400;
+                font-size: $sm;
+            }
+    
+            .funeral__btn{
+                font-size: $sm;
+                background-color: $accent;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

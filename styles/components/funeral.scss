@@ -1,0 +1,117 @@
+@import '../variables.scss';
+
+.funeral{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: $dark;
+    color: $light;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    .funeral__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+         .funeral__header{
+            font-size: $xl3;
+        }
+
+        .address{
+            font-size: $xl;
+        }
+
+        .date{
+            font-size: $xl;
+        }
+
+        p{
+            width: 65ch;
+            text-align: center;
+        }
+
+    }
+
+   
+}
+
+@media (max-width: 768px){
+    .funeral{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-color: $dark;
+        color: $light;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    
+        .funeral__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+    
+             .funeral__header{
+                font-size: $xl3;
+            }
+    
+            .address{
+                font-size: $lg;
+            }
+    
+            .date{
+                font-size: $lg;
+            }
+    
+            p{
+                width: 45ch;
+                text-align: center;
+            }
+    
+        }
+    
+       
+    }
+}
+
+@media (max-width: 648px){
+    .funeral{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-color: $dark;
+        color: $light;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    
+        .funeral__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+    
+             .funeral__header{
+                font-size: $xl3;
+            }
+    
+            .address{
+                font-size: $base;
+                text-align: center;
+            }
+    
+            .date{
+                font-size: $base;
+            }
+    
+            p{
+                width: 35ch;
+                text-align: center;
+            }
+    
+        }
+    
+       
+    }
+}
