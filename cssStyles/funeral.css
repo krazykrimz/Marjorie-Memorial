@@ -107,11 +107,12 @@
     gap: 2rem;
   }
   .funeral .funeral__info .funeral__header {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
   }
   .funeral .funeral__info .address {
     font-size: 0.875rem;
     text-align: center;
+    width: 25ch;
   }
   .funeral .funeral__info .date {
     font-size: 0.875rem;
