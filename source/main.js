@@ -5,6 +5,6 @@ import '../cssStyles/hero.css';
 import '../cssStyles/herobanner.css';
 import '../styles/funeral.css';
 import '../styles/program.css';
-import '../cssStyles/gallery.css';
+import '../styles/gallery.css';
 import '../styles/utils.css';
 

@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  background-color: #363636;
 }
 .row .column {
   flex: 25%;
