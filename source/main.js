@@ -3,7 +3,8 @@ import '../styles/style.css';
 import '../cssStyles/header.css';
 import '../cssStyles/hero.css';
 import '../cssStyles/herobanner.css';
-import '../cssStyles/funeral.css';
+import '../styles/funeral.css';
+import '../styles/program.css';
 import '../cssStyles/gallery.css';
 import '../styles/utils.css';
 

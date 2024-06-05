@@ -1,0 +1,622 @@
+@import '../variables.scss';
+
+body{
+    background-color: $dark;
+    background-image: url(/images/bg.webp);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.programContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $dark;
+    margin-top: 2rem;
+    width: 50vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+
+    .title{
+        color: $lightaccent;
+        font-size: $xl3;
+        width: 25ch;
+        margin-top: 2.5rem;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .momBanner{
+        background-color: pink;
+        background-image: url(/images/banner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        margin-top: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.6), 0 6px 20px 0 rgba(31, 31, 31, 0.5);
+    }
+
+    .momName{
+        font-size: $xl6;
+        color: $lightaccent;
+        margin-top: 3rem;
+        font-family: 'Dancing Script', cursive;
+        
+    }
+
+    h2{
+        color: $lightaccent;
+        font-weight: 200;
+        font-size: $lg;
+    }
+
+    .divider{
+        margin-top: 1rem;
+    }
+
+    p{
+        color: $lightaccent;
+        width: 55ch;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .programHeader{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .wafifLogo{
+            img{
+                width: 250px;
+            }
+        }
+
+        h1{
+            color: $lightaccent;
+        }
+        h2{
+            text-align: center;
+        }
+
+        .officiatingMin{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+
+            h1{
+
+            }
+
+            h2{
+
+            }
+        }
+
+        .programSteps{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            align-items: center;
+            gap: 1.5rem;
+            text-align: center;
+            margin-bottom: 4rem;
+
+            h3{
+                color: $lightaccent;
+                font-size: $base;
+                font-weight: 500;
+            }
+
+            .firstScripture{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                width: 35ch;
+                align-items: center;
+
+                h4{
+                    color: white;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .programContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $dark;
+        margin-top: 2rem;
+        width: 50vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    
+        .title{
+            color: $lightaccent;
+            font-size: $xl2;
+            width: 25ch;
+            margin-top: 2.5rem;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+    
+        .momBanner{
+            background-color: pink;
+            background-image: url(/images/banner.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.6), 0 6px 20px 0 rgba(31, 31, 31, 0.5);
+        }
+    
+        .momName{
+            font-size: $xl4;
+            color: $lightaccent;
+            margin-top: 3rem;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+    
+        h2{
+            color: $lightaccent;
+            font-weight: 200;
+            font-size: $lg;
+        }
+    
+        .divider{
+            margin-top: 1rem;
+        }
+    
+        p{
+            color: $lightaccent;
+            width: 55ch;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    
+        .programHeader{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .wafifLogo{
+                img{
+                    width: 200px;
+                }
+            }
+    
+            h1{
+                color: $lightaccent;
+                font-size: $xl2;
+            }
+            h2{
+    
+            }
+    
+            .officiatingMin{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+    
+                h1{
+    
+                }
+    
+                h2{
+    
+                }
+            }
+    
+            .programSteps{
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                align-items: center;
+                gap: 1.5rem;
+                text-align: center;
+                margin-bottom: 4rem;
+    
+                h3{
+                    color: $lightaccent;
+                    font-size: $base;
+                    font-weight: 500;
+                }
+    
+                .firstScripture{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 35ch;
+                    align-items: center;
+    
+                    h4{
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .programContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $dark;
+        margin-top: 2rem;
+        width: 50vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    
+        .title{
+            color: $lightaccent;
+            font-size: $xl;
+            width: 25ch;
+            margin-top: 2.5rem;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+    
+        .momBanner{
+            background-color: pink;
+            background-image: url(/images/banner.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.6), 0 6px 20px 0 rgba(31, 31, 31, 0.5);
+        }
+    
+        .momName{
+            font-size: $xl4;
+            color: $lightaccent;
+            margin-top: 3rem;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+    
+        h2{
+            color: $lightaccent;
+            font-weight: 200;
+            font-size: $lg;
+        }
+    
+        .divider{
+            margin-top: 1rem;
+        }
+    
+        p{
+            color: $lightaccent;
+            width: 55ch;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    
+        .programHeader{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .wafifLogo{
+                img{
+                    width: 200px;
+                }
+            }
+    
+            h1{
+                color: $lightaccent;
+                font-size: $xl;
+                text-align: center;
+            }
+            h2{
+                font-size: $base;
+            }
+    
+            .officiatingMin{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+    
+                h1{
+    
+                }
+    
+                h2{
+    
+                }
+            }
+    
+            .programSteps{
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                align-items: center;
+                gap: 1.5rem;
+                text-align: center;
+                margin-bottom: 4rem;
+    
+                h3{
+                    color: $lightaccent;
+                    font-size: $base;
+                    font-weight: 500;
+                }
+    
+                .firstScripture{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 30ch;
+                    align-items: center;
+    
+                    h4{
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 648px){
+    .programContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $dark;
+        margin-top: 2rem;
+        width: 75vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    
+        .title{
+            color: $lightaccent;
+            font-size: $xl;
+            width: 25ch;
+            margin-top: 2.5rem;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+    
+        .momBanner{
+            background-color: pink;
+            background-image: url(/images/banner.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.6), 0 6px 20px 0 rgba(31, 31, 31, 0.5);
+        }
+    
+        .momName{
+            font-size: $xl4;
+            color: $lightaccent;
+            margin-top: 3rem;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+    
+        h2{
+            color: $lightaccent;
+            font-weight: 200;
+            font-size: $lg;
+        }
+    
+        .divider{
+            margin-top: 1rem;
+        }
+    
+        p{
+            color: $lightaccent;
+            width: 55ch;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    
+        .programHeader{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .wafifLogo{
+                img{
+                    width: 200px;
+                }
+            }
+    
+            h1{
+                color: $lightaccent;
+                font-size: $xl;
+                text-align: center;
+            }
+            h2{
+                font-size: $base;
+            }
+    
+            .officiatingMin{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+    
+                h1{
+    
+                }
+    
+                h2{
+    
+                }
+            }
+    
+            .programSteps{
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                align-items: center;
+                gap: 1.5rem;
+                text-align: center;
+                margin-bottom: 4rem;
+    
+                h3{
+                    color: $lightaccent;
+                    font-size: $base;
+                    font-weight: 500;
+                }
+    
+                .firstScripture{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 25ch;
+                    align-items: center;
+    
+                    h4{
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px){
+    .programContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $dark;
+        margin-top: 2rem;
+        width: 90vw;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    
+        .title{
+            color: $lightaccent;
+            font-size: $base;
+            width: 25ch;
+            margin-top: 2.5rem;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+    
+        .momBanner{
+            background-image: url(/images/banner.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.6), 0 6px 20px 0 rgba(31, 31, 31, 0.5);
+        }
+    
+        .momName{
+            font-size: $xl4;
+            color: $lightaccent;
+            margin-top: 3rem;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+    
+        h2{
+            color: $lightaccent;
+            font-weight: 200;
+            font-size: $lg;
+        }
+    
+        .divider{
+            margin-top: 1rem;
+        }
+    
+        p{
+            color: $lightaccent;
+            width: 55ch;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    
+        .programHeader{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .wafifLogo{
+                img{
+                    width: 200px;
+                }
+            }
+    
+            h1{
+                color: $lightaccent;
+                font-size: $xl;
+                text-align: center;
+            }
+            h2{
+                font-size: $base;
+            }
+    
+            .officiatingMin{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+    
+                h1{
+    
+                }
+    
+                h2{
+    
+                }
+            }
+    
+            .programSteps{
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                align-items: center;
+                gap: 1.5rem;
+                text-align: center;
+                margin-bottom: 4rem;
+    
+                h3{
+                    color: $lightaccent;
+                    font-size: $base;
+                    font-weight: 500;
+                }
+    
+                .firstScripture{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 25ch;
+                    align-items: center;
+    
+                    h4{
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
